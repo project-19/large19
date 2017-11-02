@@ -757,3 +757,69 @@ ul,li {
 	margin-bottom: 28px;
 	font-size: 16px
 }
+.article{
+	background:#fff;
+}
+.article .article-info .title{
+	margin: 0;
+    padding: 28px 25px 0;
+    font-size: 26px;
+    color: #333;
+    line-height: 1.5em;
+}
+
+.article .article-info .other-info{
+    margin: 25px 25px 0;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 25px;
+}
+
+.article .article-info .other-info .author {
+    font-size: 16px;
+    color: #333;
+    padding-right: 20px;
+}
+.article .article-info  .other-info .time {
+    border-left: 1px solid #333;
+}
+.article .article-info .other-info .data {
+    border-left: 1px solid #333;
+}
+.article .article-info .other-info .time, .article .article-info .other-info .data {
+    font-size: 16px;
+    color: #999;
+    padding: 0 20px;
+}
+.article .article-content {
+    padding: 25px;
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.article .article-content  .abstract {
+    color: #999;
+    margin-bottom: 30px;
+}
+.article .article-content p {
+    margin-top: 10px;
+}
+.article .article-content p img {
+    max-width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+.article .article-content .rights {
+    margin-top: 40px;
+}
+.article .article-content .rights .rights-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+.article .article-content .rights .instructions {
+    font-size: 14px;
+    color: #999;
+}

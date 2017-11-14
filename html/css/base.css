@@ -34,7 +34,7 @@ ul,li {
   background: #fff;
   height: 94px;
   color: #000;
-  border: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
 }
 #header-nav{
   margin: 0 auto;
@@ -49,14 +49,14 @@ ul,li {
     line-height: 94px;
 }
 #header-nav .logo>img{
-  margin-top: 28px;
-  height: 50px;
+    margin-top: -12px;
+    height: 100px;
   vertical-align: middle;
 }
 #header-nav ul{
   display: block;
   margin-top: 33px;
-  margin-left: 42px;
+  margin-left: 250px;
   float: left;
 }
 #header-nav li{
@@ -85,7 +85,7 @@ ul,li {
 	position: relative;
   background: #ffdbb7 url(../images/bg.jpg) no-repeat top center;
   background-size: 2540px auto;
-  padding-top: 20px;
+  padding-top: 130px;
   min-height: 1200px;
 }
 .wrapper-content {
